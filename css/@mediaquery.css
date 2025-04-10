@@ -1,40 +1,64 @@
 @media(max-width:924px) {
+    body{
+        background-image: url(../images/bg-mobile.svg);        
+    }
+
+    header {
+        max-width: 100%;
+        padding: 50px 50px 50px 20px;
+    }
+
     header .logo {
-        grid-area: logo;
-        padding-left: 50px;
+        text-align: center;
+        width: 550px;
     }
 
     .container {
-        display: grid;
-        grid-area: container;
-        grid-template-rows: 0.5fr 0.5fr;
+        display: inline-block;
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .container .imagem {
+        text-align: center;
     }
 
     .container .imagem img {
-        width: 700px;
-        height: 1000px;
-        margin: 0px;
+        width: 800px;
+        height: 600px;
+        padding: 50px 0px 0px 50px;
     }
 
     .container .informacao {
-        margin: 0px;
-        padding: 40px 0px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .container .informacao h1 {
+        font-size: 50px;
+        max-width: 100%;
     }
 
     .container .informacao p {
-        line-height: 100px;
+        width: 620px;
+        padding-top: 30px;
+        font-size: 30px;
     }
 
     .container .informacao .button {
-        margin: 100px 175px 0px 175px;
+        font-size: 30px;
+        width: 400px;
+        margin-left: 100px;
     }
 
-    footer .social {
-        padding-right: 100px;
-        margin: 0px;
+    footer{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        padding-top: 60px;
     }
 
-    footer .social a {
-        margin-right: 90px;
+    footer nav ul {
+        padding-left: 60px;
     }
 }
