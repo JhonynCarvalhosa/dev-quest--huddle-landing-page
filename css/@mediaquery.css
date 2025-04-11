@@ -53,12 +53,8 @@
 
     footer{
         display: flex;
-        align-self: center;
         justify-content: center;
-        padding-top: 60px;
-    }
-
-    footer nav ul {
-        padding-left: 60px;
+        padding-top:25px;   
+        font-size: 60px;
     }
 }
